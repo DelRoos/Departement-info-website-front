@@ -1,0 +1,441 @@
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../font/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+    background-color: #F1F3F4;
+    font-family: "Roboto Medium";
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.p-l-r {
+    padding-left: 7.9%;
+    padding-right: 7.9%;
+}
+
+.m-t {
+    margin-top: 8vh;
+}
+
+.menu,
+.sub-menu {
+    margin-bottom: 2px;
+    background: hsl(0, 0%, 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.sub-menu {
+    max-height: 8vh;
+    overflow-y: hidden;
+}
+
+.navbar-nav {
+    min-height: 8vh!important;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 7vh;
+    margin-right: 2vw;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #202124!important;
+}
+
+.active {
+    border-bottom: 2px solid #000000;
+    border-bottom-style: outset;
+}
+
+.hide {
+    display: none;
+}
+
+.search_bar {
+    height: 5vh;
+    width: 13.12vw;
+    font-size: 13px;
+    color: #676C72;
+    background: #D1D3D4 0% 0% no-repeat padding-box;
+}
+
+.search_bar:focus {
+    background: white 0% 0% no-repeat padding-box;
+    border: 1px solid #D1D3D4!important;
+    border-radius: 2px;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.msg_important .carousel-item {
+    height: 8vh;
+    background-color: #202124;
+    color: white;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 13px;
+}
+
+.msg_important .carousel-indicators {
+    padding-top: 150px;
+    margin-bottom: 0;
+}
+
+
+/* premier card presentation du departement  : Begin*/
+
+.section_presentation {
+    min-height: 80vh;
+    padding-top: 2%;
+    padding-left: 7.9%;
+    padding-right: 7.9%;
+}
+
+.section_presentation .pres_title {
+    font-size: 50px;
+    color: #6A4E77;
+    padding-bottom: 2%;
+}
+
+.section_presentation .pres_subtitle {
+    color: #676C72;
+}
+
+.section_presentation .card-header {
+    background-color: inherit;
+    border: none;
+    padding: 0;
+}
+
+.section_presentation .texte {
+    margin-right: 5%;
+    color: #676C72;
+    font-size: 13px;
+}
+
+.section_presentation .pres_footer {
+    margin-top: 5%;
+}
+
+.section_presentation .pres_footer a {
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.hover {
+    background-color: #6a4e77;
+    border: none;
+    color: #E5E5E5!important;
+}
+
+.nohover {
+    background-color: inherit;
+    color: #AB608B!important;
+    border: 2px solid #AB608B;
+}
+
+.slider_pres {
+    padding: 0;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.slider_pres .carousel-item {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
+/* .slider_pres .carousel-inner .carousel-item {
+    height: 100%;
+    width: 100%;
+} */
+
+.slider_pres .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.slider_pres .carousel-indicators {
+    position: absolute;
+    top: 90%;
+    left: 52%;
+}
+
+.carousel-indicators button {
+    height: 6px!important;
+    width: 6px!important;
+    border-radius: 50%;
+}
+
+.slider_pres .card-img-overlay {
+    background-color: #000000;
+    width: 50%;
+    height: 35%;
+    opacity: 0.8;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+
+.slider_pres .carousel-inner h3 {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.slider_pres .carousel-inner h5 {
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+
+/* Presentation card : End */
+
+.info_univ {
+    min-height: 80vh;
+}
+
+.info_univ .school_path .card {
+    padding-top: 3%;
+    padding-left: 15%;
+    min-height: 70vh;
+    padding-bottom: 10%;
+}
+
+.info_univ .school_path .card ul {
+    margin-top: 30px;
+}
+
+.info_univ .school_path .card ul li {
+    list-style: none;
+    font-size: 13px;
+    color: #6A4E77;
+}
+
+.info_univ .school_path .card img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.info_univ .school_path .card .card-title {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: #292D33;
+    font-size: 35px!important;
+}
+
+.info_univ .school_path .card p.card-text {
+    color: #202124;
+}
+
+.info_univ .school_path .card {
+    font-size: 13px;
+}
+
+.info_univ .school_path .border_info {
+    position: absolute;
+    height: 10vh;
+    width: 0.7vw;
+    margin-top: 4%;
+    background-color: #DE3A99;
+}
+
+.info_univ .communicated .card {
+    padding-right: 7.9%;
+    min-height: 70vh;
+    background-color: inherit;
+    border: 0px;
+    margin-left: 15%;
+    /* margin-top: 20px; */
+}
+
+.info_univ .communicated .card .card-body {
+    border: 1px solid #D1D3D4;
+    margin: 0;
+    padding-top: 3%;
+    height: 100%;
+}
+
+.info_univ .communicated .card ul {
+    padding-top: 6%;
+    height: 95%;
+    padding-left: 10px;
+}
+
+.info_univ .communicated .card ul h5 {
+    font-size: 35px;
+    color: #6A4E77;
+}
+
+.list-group-item {
+    font-size: 11px;
+    background-color: inherit;
+    width: 100%;
+    height: 20%;
+    border: 0;
+    border-bottom: 0.5px solid #D1D3D4!important;
+    padding: 17px 10px 17px 10px;
+    color: #6a4e77;
+}
+
+.btn_per {
+    background-color: #AB608B;
+    border: 0;
+    color: #FFFFFF;
+    border-radius: 0;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.list-group-item span {
+    color: #202124;
+}
+
+.border_communicate {
+    position: absolute;
+    height: 20vh;
+    width: 0.7vw;
+    margin-top: 4%;
+    background-color: #DE3A99;
+    border: 0px;
+    top: -4%;
+    left: -11%;
+}
+
+.card_date {
+    min-height: 70px!important;
+    min-width: 70px!important;
+    background-color: #6A4E77;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 10px;
+}
+
+.link_btn {
+    background-color: #AB608B;
+    border: 0;
+    color: #FFFFFF;
+    border-radius: 0;
+    font-size: 15px;
+    width: 90%;
+    justify-content: center;
+    min-height: 45px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.color-violet {
+    color: #6A4E77;
+}
+
+.bg-parent {
+    background-color: inherit;
+}
+
+.white_black {
+    color: #292D33;
+}
+
+.color-dark-pink {
+    color: #AB608B;
+}
+
+.color-pink {
+    color: #DE3A99;
+}
+
+.max-height {
+    height: 100%;
+}
+
+.font-small {
+    font-size: 13px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.img-card-size {
+    height: 170px;
+}
+
+.btn_send {
+    position: absolute;
+    background-color: #6a4e77;
+    border-style: none;
+    width: 130px;
+    height: 50px;
+    top: 65%;
+    right: -1%;
+    color: white;
+}
+
+.fs-15 {
+    font-size: 18px;
+}
+
+.bg-footer {
+    background-color: #484A52;
+}
+
+.color-trans {
+    color: #9A9A9A;
+}
+
+.ff-rr {
+    font-family: "Roboto Regular";
+}
+
+.btn-foot {
+    background-color: #AB608B;
+}
+
+.back-black {
+    background-color: #363232;
+}
+
+.color-dark {
+    color: #555555;
+}
+
+.w-85 {
+    width: 87%;
+}
