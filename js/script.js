@@ -36,6 +36,22 @@ $(document).ready(function() {
         $(event.target).removeClass("btn-primary")
     });
 
+    $(".hover_perso").hover(
+        function() { $(this).addClass("nohover"); },
+        function() { $(this).removeClass("nohover"); }
+    );
+
+    // $("div").hover(
+    //     function() { $(this).css("background-color", "lightBlue"); },
+    //     function() { $(this).css("background-color", "#fff"); }
+    // );
+
+    $(".hover_perso").mouseleave(function(event) {
+        if (event.target.hasClass("nohover"))
+            $(event.target).removeClass("nohover");
+    });
+
+
     $("#parent_menu a").click(function(event) {
         let submenu = $(".sub_menu").children();
         // let menu = $(".parent_menu").children();

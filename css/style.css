@@ -155,9 +155,9 @@ body {
 }
 
 .nohover {
-    background-color: inherit;
+    background-color: white!important;
     color: #AB608B!important;
-    border: 2px solid #AB608B;
+    border: 2px solid #AB608B!important;
 }
 
 .slider_pres {
@@ -344,6 +344,10 @@ body {
     text-align: center;
     line-height: 15px;
     padding-top: 10px;
+}
+
+.fs-10 {
+    font-size: 10px;
 }
 
 .link_btn {
